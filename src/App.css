@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:wght@400;700&display=swap');
+
+body{
+  background:#dedede;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(37, 37, 37);
+}
+
+html{
+  font-size: 10px;
+}
+
+.heading{
+  font-size: 4rem;
+  text-align: center;
+  font-family: Noticia;
+}
+
+
+
+@media (min-width: 801px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media (min-width: 351px) and (max-width: 800px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  html {
+    font-size: 5px;
+  }
+}
