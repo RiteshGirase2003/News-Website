@@ -5,7 +5,7 @@ import Fetch from './Component/Fetch';
 import Search from './Component/Search';
 
 function App() {
-  const apiKEY = '2bb2cc83197443f8b7c3ce9a4c6d5639'
+  const apiKEY = 'api key'
   const [selectedOptions, setSelectedOptions] = useState([]);
   const [url,setUrl] = useState('https://newsapi.org/v2/top-headlines/sources?apiKey='+apiKEY)
 
